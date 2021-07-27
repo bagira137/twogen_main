@@ -1,0 +1,162 @@
+@media screen and (min-width: 769px) {
+    .mobile {
+        display: none;
+    }
+    
+    body {
+        background-image: url(../img/new_background.JPG);
+        background-size: 115vw 65vw;
+        background-position: center;
+        background-color: black;
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    
+    header {
+        display: flex;
+        justify-content: center;
+        padding-top: 5vw;
+    }
+    
+    #logo {
+        width: 18vw;
+        height: 5vw;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .company_photo {
+        display: flex;
+        justify-content: center;
+        width: 50vw;
+    }
+    
+    .img_com_photo {
+        padding-top: 5vw;
+        width: 35vw;
+        height: 40vw;
+    }
+    
+    .contacts {
+        margin-top: 2vw;
+        margin-left: 15vw;
+        width: 34vw;
+        height: 31vw;
+        /* border: 2px solid gray; */
+    }
+    
+    .contact_header {
+        font-size: 3vw;
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+        text-align: center;
+        margin-top: 5vw;
+        margin-bottom: 1vw;
+    }
+    
+    .tel {
+        font-size: 2vw;
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+        /* text-align: center; */
+        padding-left: 5vw;
+    }
+    
+    .email {
+        font-size: 2vw;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        /* text-align: center; */
+        padding-left: 5vw;
+    }
+    
+    .instagram_container {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .insta_text {
+        margin-top: 0vw;
+        font-size: 1.5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+        /* text-align: center; */
+        padding-left: 5vw;
+    }
+    
+    .insta_logo {
+        width: 4vw;
+        height: 4vw;
+        position: relative;
+        left: 1vw;
+        top: -1vw;
+    }
+    
+    .under_constructure {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.6vw;
+        color: black;
+        margin-left: 15vw;
+        margin-top: -2vw;
+    }  
+}
+
+@media screen and (max-width: 768px) {
+    .desktop {
+        display: none;
+    } 
+    
+    body {
+        background-image: url(../img/mobile_bgr.JPG);
+        background-size: 100vw 100vh;
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; 
+    }
+
+    #logo_mob {
+        width: 55vw;
+        height: 15vw;
+        margin-top: 4vw;
+        margin-left: 23vw;
+    }
+
+    .contacts_mob {
+        width: 78vw;
+        padding-left: 5vw;
+        margin-left: 9vw;
+        margin-top: 17vw;
+        background-color: rgba(250, 249, 247, 0.4);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 5.5vw;
+        font-weight: 600;
+    }
+
+    .contact_header {
+        text-align: center;
+    }
+
+    .insta_logo {
+        width: 10vw;
+        height: 10vw;
+        margin-left: 32vw;
+    }
+
+    .under_constructure {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 5vw;
+        text-align: center;
+        margin-top: 10vw;   
+        padding-bottom: 0;
+        margin-bottom: 0; 
+    }
+}
+
+
+
